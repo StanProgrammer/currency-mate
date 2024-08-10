@@ -5,7 +5,6 @@ CurrencyMate is a simple and intuitive currency converter application that allow
 
 ## Features
 - Convert between multiple currencies
-- Real-time exchange rates
 - User-friendly interface
 
 ## Technologies Used
