@@ -21,7 +21,6 @@ CurrencyMate is a simple and intuitive currency converter application that allow
 To run this application locally, clone the repository and open `index.html` in your web browser.
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/StanProgrammer/currency-mate
 cd currency-mate
 open index.html
-```
