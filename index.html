@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="card">
+            <div id="header">
+                <p>Currency Convertor</p>
+            </div>
+            <div id="content">
+                <header>Enter Amount</header>
+                <input type="text" id="input" required>
+                <div id="part2">
+                    <div id="cur1">
+                        <p>From</p>
+                        <div id="cur3">
+                            <img src="https://flagsapi.com/IN/flat/64.png" id="image">
+                            <select name="cur1" id="selection1">
+                                <option value="IN" id="IN" selected>INR</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+                    <i class="fa-solid fa-money-bill-transfer" id="icon"></i>
+                    <div id="cur2">
+                        <p>To</p>
+                        <div id="cur3">
+                            <img src="https://flagsapi.com/US/flat/64.png" id="image2">
+                            <select name="cur2" id="selection2">
+                                <option value="USD" id="US" selected>
+                                   USD
+                                </option>
+                                
+                            </select>
+                        </div>
+                        
+                    </div>
+                </div>
+                <p id="convert">1 USD ≈ 80INR </p>
+                <button id="btn">Get Exchange Rates</button>
+            </div>
+            
+            
+        </div>
+       
+        <script src="./code.js" async defer></script>
+        <script src="./index.js" async defer></script>
+        
+    </body>
+</html>
